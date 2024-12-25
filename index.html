@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Value Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Career Value Tracker</h1>
+            <p>Understand the value of your time, investments, and gaps in your career journey.</p>
+        </header>
+
+        <section id="time-value">
+            
+                <h2>Time Value Calculator</h2>
+                <label for="annual-income">Annual Income ($):</label>
+                <input type="number" id="annual-income" placeholder="Enter your annual income">
+            
+                <label for="work-hours">Work Hours per Week:</label>
+                <input type="number" id="work-hours" placeholder="e.g., 40">
+            
+                <button id="calculate-time-value">Calculate</button>
+                <p id="time-value-result"></p>
+            </section>
+            
+      
+
+            <section id="career-investment">
+                <h2>Career Investment Tracker</h2>
+                <label for="investment-cost">Investment Cost ($):</label>
+                <input type="number" id="investment-cost" placeholder="Enter the total cost of your investment">
+            
+                <label for="salary-boost">Potential Salary Increase ($):</label>
+                <input type="number" id="salary-boost" placeholder="Expected salary boost">
+            
+                <button id="calculate-investment">Calculate ROI</button>
+                <p id="investment-result"></p>
+            </section>
+            
+
+        <section id="career-gap">
+            <h2>Career Gap Analyzer</h2>
+            <label for="total-years">Total Career Years:</label>
+            <input type="number" id="total-years" placeholder="Enter your total career years">
+
+            <label for="gap-years">Gap Duration (Years):</label>
+            <input type="number" id="gap-years" placeholder="Enter the length of your career gap">
+
+            <button id="calculate-gap">Analyze Career Gap</button>
+            <p id="career-gap-result"></p>
+        </section>
+    </div>
+
+    <footer id="career-dashboard-footer">
+        <div id="career-summary">
+        <h2>Career Value Summary</h2>
+            <p id="dashboard-hourly-rate">Hourly Rate: Not calculated</p>
+            <p id="dashboard-roi">ROI: Not calculated</p>
+            <p id="dashboard-gap">Career Gap Analysis: Not calculated</p>
+        </div>
+    </div>
+
+   <!-- <div id="summary-charts">
+        <h2>Summary Charts</h2>
+        
+    </div> -->
+</footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
