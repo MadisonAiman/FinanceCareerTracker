@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C2E;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #2A2D44;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    transition: background-color 0.3s ease;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #BAE5EE;
+}
+
+/* Section Styling */
+section {
+    width: 100%;
+    padding: 50px;
+    background-color: #1F2335;
+    margin: 20px 0;
+    border-radius: 12px;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+/* First Section */
+section:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+/* Second Section */
+section:nth-child(2) {
+    animation-delay: 1s;
+}
+
+/* Third Section */
+section:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Cards */
+.card {
+    background-color: #2A2D44;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Content */
+.card h2 {
+    font-size: 1.8rem;
+    color: #BAE5EE;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #A8A5C9;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6E68A6;
+}
