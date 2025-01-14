@@ -35,8 +35,7 @@ Input Your Data: Enter values such as annual income, work hours, investment cost
 Click to Calculate: Each section of the application has a dedicated "Calculate" button that computes the corresponding analysis.
 View Your Results: The application displays results immediately after calculation and updates the summary dashboard for a comprehensive overview.
 
-**
-Getting Started**
+**Getting Started**
 
 Clone or download this repository.
 Open the index.html file in your browser to view the application in action.
@@ -47,7 +46,8 @@ Finance Professionals: Calculate the hourly value of your time to optimize billa
 Career-Oriented Individuals: Track educational expenses and potential salary increases to determine the ROI of further certifications or training.
 Anyone with Career Gaps: Use the gap analyzer to understand how a gap in employment might affect long-term career value and salary expectations.
 
-Technologies Used
+**Technologies Used**
+
 HTML5
 CSS3 (Animations and Responsive Design)
 JavaScript (for calculations and user interaction)
